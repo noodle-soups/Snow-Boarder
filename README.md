@@ -11,17 +11,17 @@
 
 ### Game mechanics
 
- * Driving car forwards and backwards
- * Turning car left and right
- * Increase speed when drive over "Speed Ups"
- * Decrease speed when drive over "Speed Downs"
- * Deliver packages when drive over delivery spot
- * Change car color to show status
+ * Move along track
+ * Rotate forwards and backwards
+ * Ability to speed up
+ * Particle effects that only play when we are touching the ground
+ * Finish line that restarts level
+ Crash detection that restarts level
 
  <br>
 
  ### Game design
 
-* Payer experience: Relaxing
-* Core mechanic: Drive oer pickups
-* Game loop: Find and deliver all the packages to win
+* Player Experience - Smooth and relaxing
+* Core Mechanic - Don't crash
+* Game Loop - Reach end to win
