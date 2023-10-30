@@ -14,6 +14,7 @@ public class CrashDetector : MonoBehaviour
     {
         if (other.tag == "Ground")
         {
+            FindObjectOfType<PlayerController>().DisableControls();
             Debug.Log("Game over!");
             crashEffect.Play();
             GetComponent<AudioSource>().Play();
