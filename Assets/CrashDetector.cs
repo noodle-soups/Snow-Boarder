@@ -16,6 +16,7 @@ public class CrashDetector : MonoBehaviour
         {
             Debug.Log("Game over!");
             crashEffect.Play();
+            GetComponent<AudioSource>().Play();
             Invoke("ReloadScene", reloadDelay);
         }
     }
