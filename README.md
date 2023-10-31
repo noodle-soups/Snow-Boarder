@@ -1,5 +1,5 @@
-# Snow Boarder
- TBD
+# Snowboarder
+ Snowboarding game
 
 <br>
  
